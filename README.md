@@ -11,14 +11,14 @@ A carry look-ahead adder reduces the propagation delay by introducing more compl
 In this design, the ripple carry design is suitably transformed such that the carry logic over fixed groups of bits of the adder is reduced to two-level logic. (1)
 
 ```math
-    S_i = P_i \oplus C_i
+    S_i = P_i \oplus C_i \\
     C_{i+1} = G_i + P_i \cdot C_i
 ```
 
 ```math
-    C_1 = G_0 + P_0 C_{in} 
-    C_2 = G_1 + P_1 C_1 = G_1 + P_1 G_0 + P_1 P_0 C_{in} 
-    C_3 = G_2 + P_2 C_2 = G_2 + P_2 G_1 + P_2 P_1 G_0 + P_2 P_1 P_0 C_{in} 
+    C_1 = G_0 + P_0 C_{in} \\
+    C_2 = G_1 + P_1 C_1 = G_1 + P_1 G_0 + P_1 P_0 C_{in} \\
+    C_3 = G_2 + P_2 C_2 = G_2 + P_2 G_1 + P_2 P_1 G_0 + P_2 P_1 P_0 C_{in} \\
     C_4 = G_3 + P_3 C_3 = G_3 + P_3 G_2 + P_3 P_2 G_1 + P_3 P_2 P_1 G_0 + P_3 P_2 P_1 P_0 C_{in}
 ```
 
