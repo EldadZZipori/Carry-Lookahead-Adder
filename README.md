@@ -18,13 +18,13 @@ In this design, the ripple carry design is suitably transformed such that the ca
 ```
 
 ```math
-    C_1 = G_0 + P_0 C_{in} \\
+    C_1 = G_0 + P_0 C_{in} 
 ```
 ```math
-    C_2 = G_1 + P_1 C_1 = G_1 + P_1 G_0 + P_1 P_0 C_{in} \\
+    C_2 = G_1 + P_1 C_1 = G_1 + P_1 G_0 + P_1 P_0 C_{in} 
 ```
 ```math
-    C_3 = G_2 + P_2 C_2 = G_2 + P_2 G_1 + P_2 P_1 G_0 + P_2 P_1 P_0 C_{in} \\
+    C_3 = G_2 + P_2 C_2 = G_2 + P_2 G_1 + P_2 P_1 G_0 + P_2 P_1 P_0 C_{in} 
 ```
 ```math
     C_4 = G_3 + P_3 C_3 = G_3 + P_3 G_2 + P_3 P_2 G_1 + P_3 P_2 P_1 G_0 + P_3 P_2 P_1 P_0 C_{in}
