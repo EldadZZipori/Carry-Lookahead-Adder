@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eldadzz
+HostName                       ssh-soc.ece.ubc.ca
+ProcessIdentifier              277254
+ProcessCreationTime_UTC        1732670040
+ProcessCreationTime_Readable   Tue Nov 26 17:14:00 2024 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /ubc/ece/home/ugrads/e/eldadzz/Desktop/ELEC402/project1_elec402/carry_lookahead_adder_4bit/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Nov 26 17:39:58 2024 PST
