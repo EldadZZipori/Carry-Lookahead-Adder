@@ -49,8 +49,8 @@ For example - an inverter was built and tested and then used to build a xor gate
 
 
 ## Final Result
-The metric achieved was delay time of 2.05nanoseconds. This means that if this adder is the critical path of a system, the system can go at a
-maximum clock frequency of 1/delay which will allow a clock speed of 4.88 GHz.
+The metric achieved was delay time of 0.257 nanoseconds. This means that if this adder is the critical path of a system, the system can go at a
+maximum clock frequency of 1/delay which will allow a clock speed of 3.9 GHz.
 
 ## Appendix
 
